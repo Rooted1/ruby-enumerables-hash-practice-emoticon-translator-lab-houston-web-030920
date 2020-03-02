@@ -3,9 +3,13 @@ require 'pry'
 
 def load_library(emoticon_file)
   emoticon = {}
-  # srr = YAML.load_file(emoticon_file)
+  srr = YAML.load_file(emoticon_file)
   emoticon[:get_meaning] = {}
   emoticon[:get_emoticon] = {}
+  
+  srr.each do |japanese_emoticon|
+    emoticon[:get_meaning]= japanese_emoticon
+  end 
   
   emoticon
 end

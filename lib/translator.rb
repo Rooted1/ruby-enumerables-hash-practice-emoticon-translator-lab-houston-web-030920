@@ -19,6 +19,7 @@ end
 
 def get_japanese_emoticon(yml_file, emoticon)
   emoticon_file  = load_library(yml_file)
+  emoticon_file
   binding.pry
 end
 #-------------------------------

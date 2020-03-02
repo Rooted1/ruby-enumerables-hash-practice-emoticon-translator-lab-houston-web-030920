@@ -22,6 +22,8 @@ def get_japanese_emoticon(yml_file, emoticon)
   japanese_equivalent = ""
   emoticon_file[:get_meaning].each do |k, v|
     japanese_equivalent = k
+    
+    binding.pry
   end
   
 end

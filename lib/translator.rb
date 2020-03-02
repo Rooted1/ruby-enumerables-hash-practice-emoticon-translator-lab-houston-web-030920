@@ -30,6 +30,6 @@ def get_japanese_emoticon(yml_file, emoticon)
 end
 
 #-------------------------------
-def get_english_meaning
-  # code goes here
+def get_english_meaning(yml_file, emoticon)
+  
 end

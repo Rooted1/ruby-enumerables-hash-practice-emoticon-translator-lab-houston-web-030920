@@ -12,7 +12,7 @@ def load_library(emoticon_file)
     emoticon[:get_emoticon][value[0]] = value[1]
     
   end 
-  binding.pry
+  # binding.pry
   emoticon
 end
 

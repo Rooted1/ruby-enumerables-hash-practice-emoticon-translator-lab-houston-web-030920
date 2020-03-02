@@ -32,7 +32,7 @@ end
 #-------------------------------
 def get_english_meaning(yml_file, emoticon)
   emoticon_file  = load_library(yml_file)
-  english_meaning = ""
+  english_meaning = "Sorry, that emoticon was not found"
   
   emoticon_file[:get_meaning].each do |k, v|
     if emoticon == k

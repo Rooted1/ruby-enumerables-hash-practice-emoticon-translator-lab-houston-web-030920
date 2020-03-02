@@ -19,7 +19,7 @@ end
 
 def get_japanese_emoticon(yml_file, emoticon)
   emoticon_file  = load_library(yml_file)
-  japanese_equivalent = ""
+  japanese_equivalent = "Sorry, that emoticon was not found"
   
   emoticon_file[:get_emoticon].each do |k, v|
     if emoticon == k
@@ -27,7 +27,6 @@ def get_japanese_emoticon(yml_file, emoticon)
     else 
     end
   end
-    # binding.pry
   japanese_equivalent
 end
 

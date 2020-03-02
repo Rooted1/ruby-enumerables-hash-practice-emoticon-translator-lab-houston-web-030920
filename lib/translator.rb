@@ -28,7 +28,7 @@ def get_japanese_emoticon(yml_file, emoticon)
       japanese_equivalent = "Sorry, that emoticon was not found"
     end
   end
-    binding.pry
+    # binding.pry
   japanese_equivalent
 end
 

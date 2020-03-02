@@ -10,9 +10,9 @@ def load_library(emoticon_file)
   srr.each do |key,value|
     emoticon[:get_meaning][value[1]] = key
     emoticon[:get_emoticon][value[0]] = value[1]
-    binding.pry
+    
   end 
-  
+  binding.pry
   emoticon
 end
 

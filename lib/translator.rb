@@ -31,5 +31,5 @@ end
 
 #-------------------------------
 def get_english_meaning(yml_file, emoticon)
-  
+  emoticon_file  = load_library(yml_file)
 end

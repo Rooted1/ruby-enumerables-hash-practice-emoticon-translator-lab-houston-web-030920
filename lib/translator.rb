@@ -32,17 +32,13 @@ end
 #-------------------------------
 def get_english_meaning(yml_file, emoticon)
   emoticon_file  = load_library(yml_file)
+  english_meaning = ""
   
   emoticon_file[:get_meaning].each do |k, v|
     if emoticon == k
-      japanese_equivalent = v 
+      english_meaning = v 
     end
   end
-  japanese_equivalent
-  
-  
-  
-  
-  
-  
+  english_meaning
+
 end

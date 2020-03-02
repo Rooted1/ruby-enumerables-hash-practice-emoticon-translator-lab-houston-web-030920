@@ -4,7 +4,7 @@ require 'pry'
 def load_library(emoticon_file)
   srr = {}
   # srr = YAML.load_file(emoticon_file)
-  srr[:get_meaning] = {}
+  srr[:get_meaning] = YAML.load_file(emoticon_file)
   srr[:get_emoticon] = {}
   
   srr

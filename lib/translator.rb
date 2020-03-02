@@ -22,7 +22,7 @@ def get_japanese_emoticon(yml_file, emoticon)
   japanese_equivalent = ""
   
   emoticon_file[:get_emoticon].each do |k, v|
-    if emoticon
+    if emoticon == k
       japanese_equivalent = v
     end
   end

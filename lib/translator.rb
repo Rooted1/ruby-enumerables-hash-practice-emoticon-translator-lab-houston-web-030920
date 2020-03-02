@@ -25,10 +25,10 @@ def get_japanese_emoticon(yml_file, emoticon)
     if emoticon == k
       japanese_equivalent = v
     else 
-      # japanese_equivalent = "Sorry, that emoticon was not found"
+      japanese_equivalent = "Sorry, that emoticon was not found"
     end
   end
-    # binding.pry
+    binding.pry
   japanese_equivalent
 end
 

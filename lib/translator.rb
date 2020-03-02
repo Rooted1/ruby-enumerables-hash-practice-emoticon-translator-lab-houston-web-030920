@@ -20,12 +20,12 @@ end
 def get_japanese_emoticon(yml_file, emoticon)
   emoticon_file  = load_library(yml_file)
   japanese_equivalent = ""
-  emoticon_file[:get_meaning].each do |k, v|
-    japanese_equivalent = k
+  emoticon_file[:get_emoticon].each do |k, v|
+    if 
     
     binding.pry
   end
-  
+  japanese_equivalent
 end
 
 #-------------------------------

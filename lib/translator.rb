@@ -2,12 +2,12 @@ require 'yaml'
 require 'pry'
 
 def load_library(emoticon_file)
-  srr = {}
+  emoticon = {}
   # srr = YAML.load_file(emoticon_file)
-  srr[:get_meaning] = {}
-  srr[:get_emoticon] = {}
+  emoticon[:get_meaning] = {}
+  emoticon[:get_emoticon] = {}
   
-  srr
+  emoticon
 end
 
 def get_japanese_emoticon

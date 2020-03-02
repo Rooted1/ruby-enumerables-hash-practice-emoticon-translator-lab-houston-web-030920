@@ -4,6 +4,8 @@ def load_library(emoticon_file)
   srr = YAML.load_file(emoticon_file)
   srr[:get_meaning] = ""
   srr[:get_emoticon] = ""
+  
+  srr
 end
 
 def get_japanese_emoticon

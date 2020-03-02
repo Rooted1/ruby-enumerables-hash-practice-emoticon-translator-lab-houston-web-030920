@@ -8,7 +8,7 @@ def load_library(emoticon_file)
   emoticon[:get_emoticon] = {}
   
   srr.each do |japanese_emoticon|
-    emoticon[:get_meaning]= japanese_emoticon
+    # emoticon[:get_meaning] = japanese_emoticon
   end 
   
   emoticon

@@ -26,7 +26,7 @@ def get_japanese_emoticon(yml_file, emoticon)
       japanese_equivalent = v
     end
   end
-    binding.pry
+    # binding.pry
   japanese_equivalent
 end
 
